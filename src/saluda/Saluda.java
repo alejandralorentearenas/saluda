@@ -18,14 +18,18 @@ public class Saluda {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner sc = new Scanner (System.in);
-        
+        Scanner sc = new Scanner(System.in);
+
         System.out.println("Introduzca su nombre:");
         String nombre = sc.nextLine();
+
+        System.out.println("Hola " + nombre);
+
+        System.out.println("Introduce la edad:");
+        int edad = sc.nextInt();
         
-        System.out.println("Hola "+nombre);
-        
+        System.out.println("Hola "+nombre+" tienes "+ edad+ " años.");
         
     }
-    
+
 }
